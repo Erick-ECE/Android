@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExternalMemmory</string>
+    <string name="boton_guardar">Guardar</string>
+    <string name="boton_consultar">Consultar</string>
+</resources>
