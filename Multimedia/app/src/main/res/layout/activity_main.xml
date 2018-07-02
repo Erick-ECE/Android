@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.erick.multimedia.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0">
+
+        <Button
+            android:id="@+id/btn_t1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Video"
+            android:layout_weight="1.0"
+            android:background="@color/c1"
+            android:onClick="Video"/>
+
+        <Button
+            android:id="@+id/btn_t2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Camara"
+            android:layout_weight="1.0"
+            android:background="@color/c2"
+            android:onClick="Camara"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sintetizador"
+            android:background="@color/colorAccent"
+            android:onClick="Sintetizador"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0">
+        <Button
+            android:id="@+id/btn_t3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="música"
+            android:layout_weight="1.0"
+            android:background="@color/c3"
+            android:onClick="Musica"/>
+
+        <Button
+            android:id="@+id/btn_t4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tonos"
+            android:layout_weight="1.0"
+            android:background="@color/c4"
+            android:onClick="Tonos"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
