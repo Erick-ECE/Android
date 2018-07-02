@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+    <item android:id="@+id/item1"
+        android:icon="@drawable/bike"
+        android:title="Item 1"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/item2"
+        android:title="Item 2"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item3"
+        android:title="Item 3"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item4"
+        android:title="Item 4"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item5"
+        android:title="Item 5"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/i_sub1"
+                android:title="subitem1"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/i_sub2"
+                android:title="subitem2"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/i_sub3"
+                android:title="subitem3"
+                app:showAsAction="never"/>
+        </menu>
+
+    </item>
+
+</menu>
