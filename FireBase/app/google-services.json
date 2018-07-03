@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "362787823278",
+    "firebase_url": "https://firstfirebase-c303d.firebaseio.com",
+    "project_id": "firstfirebase-c303d",
+    "storage_bucket": "firstfirebase-c303d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362787823278:android:0bcfb0928dd4887b",
+        "android_client_info": {
+          "package_name": "com.example.erick.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362787823278-qs7p1dhvnp1ob453mf4t58ssk1pkmvl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvARQDFDl3an4I4Lgnz39zLijru19g8gg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
