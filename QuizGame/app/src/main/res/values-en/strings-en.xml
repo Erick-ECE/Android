@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizGame</string>
+    <string name="btn_inicio">Start</string>
+    <string name="conf">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="t1">Topic1</string>
+    <string name="t2">Topic2</string>
+    <string name="t3">Topic3</string>
+    <string name="t4">Topic4</string>
+    <string name="sonido">Sound</string>
+    <string name="nivel">Level</string>
+    <string name="facil">EasyPeasyLemonSqueezy</string>
+    <string name="dificil">Hard AF</string>
+    <string name="idioma">Language</string>
+</resources>

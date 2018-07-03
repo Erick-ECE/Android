@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QuizGame</string>
+    <string name="btn_inicio">Inicio</string>
+    <string name="conf">Configuraciones</string>
+    <string name="exit">Salir</string>
+    <string name="t1">Tema1</string>
+    <string name="t2">Tema2</string>
+    <string name="t3">Tema3</string>
+    <string name="t4">Tema4</string>
+    <string name="sonido">Sonido</string>
+    <string name="nivel">Dificultad</string>
+    <string name="facil">Pan Comido</string>
+    <string name="dificil">RIP</string>
+    <string name="idioma">Idioma</string>
+</resources>
