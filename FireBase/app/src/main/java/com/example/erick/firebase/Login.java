@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.FirebaseOptions;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -38,6 +39,7 @@ public class Login extends AppCompatActivity {
         mail = findViewById(R.id.user);
         passw = findViewById(R.id.password);
         auth = FirebaseAuth.getInstance();
+        in = findViewById(R.id.btn_login);
 
     }
 
@@ -57,20 +59,13 @@ public class Login extends AppCompatActivity {
             return;
         }
         in.setEnabled(false);
-        progressDialog = new ProgressDialog(this);
+        progressDialog = new ProgressDialog(Login.this);
         progressDialog.setMessage("Espere...");
         progressDialog.show();
-
         authentication(eemail,pswrd);
     }
 
-    private void completeAuth(FirebaseUser user) {
-        if (user != null) {
-            finish();
-        } else {
-            in.setEnabled(true);
-        }
-    }
+
 
     public boolean validate(String email, String password){
         boolean esValido = true;
@@ -128,9 +123,19 @@ public class Login extends AppCompatActivity {
 
     }
 
+    private void completeAuth(FirebaseUser user) {
+        if (user != null) {
+            finish();
+        } else {
+            in.setEnabled(true);
+        }
+    }
+
+
+
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
         moveTaskToBack(false);
+
     }
 }
